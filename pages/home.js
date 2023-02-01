@@ -23,13 +23,12 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-          <h1 class="gradient-text">ALEZZ</h1>
+          <h1 class="gradient-text">Hi, I'm Alex</h1>
         </div>
         <div className={styles.grid}>
           <a
             href="#"
             className={styles.card}
-            target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
