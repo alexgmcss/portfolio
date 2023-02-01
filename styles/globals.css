@@ -105,3 +105,17 @@ a {
     color-scheme: dark;
   }
 }
+
+.aboutme {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.parrafo {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.foto {
+  align-items: center;
+}
