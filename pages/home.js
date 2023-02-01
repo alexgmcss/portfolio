@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <div className={styles.grid}>
           <a
-            href="./aboutme"
+            href="#"
             className={styles.card}
             rel="noopener noreferrer"
           >
