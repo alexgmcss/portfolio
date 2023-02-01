@@ -77,7 +77,7 @@ export default function Home() {
               Social networks <span>-&gt;</span>
             </h2>
             <p className={inter.className}>
-              All my social networks
+              All my social networks a
             </p>
           </a>
         </div>
