@@ -23,12 +23,13 @@ export default function Home() {
         </div>
 
         <div className={styles.center}>
-          <h1 class="gradient-text">Hi, I'm Alex</h1>
+          <h1 class="gradient-text">ALEZZ</h1>
         </div>
         <div className={styles.grid}>
           <a
-            href="#"
+            href="aboutme.html"
             className={styles.card}
+            target="_blank"
             rel="noopener noreferrer"
           >
             <h2 className={inter.className}>
@@ -40,7 +41,7 @@ export default function Home() {
           </a>
 
           <a
-            href="#"
+            href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
             className={styles.card}
             target="_blank"
             rel="noopener noreferrer"
