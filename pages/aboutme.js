@@ -14,7 +14,7 @@ const AboutMe = () => (
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <link rel="icon" href="/favicon.ico" />
     </Head>
-    <main className={styles.main}>
+    <main>
     <p class="aboutme"></p>
       <div className="contenedor">
         <div className="left-side">
@@ -25,6 +25,15 @@ const AboutMe = () => (
         </div>
         <div className="right-side">
           <img src={alezzImage} className="photo" alt="Photo" />
+        </div>
+      </div>
+      <p class="aboutme"></p>
+      <div className="contenedor2">
+        <div className="left-side">
+          <p className="name">Habilidades</p>
+          <p className="description">
+            -
+          </p>
         </div>
       </div>
     </main>
