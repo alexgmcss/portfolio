@@ -20,7 +20,7 @@ const AboutMe = () => (
         <div className="left-side">
           <p className="name">About Me</p>
           <p className="description">
-            My name is Alex and I'm from Spain. In 2020, I founded my own company, a small independent record label. I consider myself passionate about what I do and very dedicated to my projects.
+            My name is Alex and Im from Spain. In 2020, I founded my own company, a small independent record label. I consider myself passionate about what I do and very dedicated to my projects.
           </p>
         </div>
         <div className="right-side">
