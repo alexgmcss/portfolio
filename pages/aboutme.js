@@ -22,7 +22,7 @@ export default function AboutMe() {
       <p class="description">My name is Alex and Im from Spain, in 2020 I founded my own company, a small independent record label. I consider myself passionate about what I do and very dedicated to my projects. </p>
         </div>
         <div class="right-side">
-            <img src={require('./alezz.jpg')} class="photo" alt="Foto" />
+        <img src={require('./alezz.jpg')} class="photo" alt="Foto" />
         </div>
         </div>
       </main>
