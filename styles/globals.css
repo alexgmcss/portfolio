@@ -196,3 +196,40 @@ a {
   width: 80px;
   height: 80px;
 }
+
+.social-media {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin: 20px auto;
+}
+
+.social-media a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.social-media a:hover {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+}
+
+.fa {
+  color: #fff;
+  display: inline-block;
+}
+
+.fab {
+  color: white;
+}
+
+.fa fa-twitter {
+  color: white;
+}
