@@ -10,8 +10,8 @@ const AboutMe = () => {
   <span></span>
   <span></span> ← Back Home
 </button>
-      <h1 className={styles.sobremi}>Sobre mí</h1>
-      <p className={styles.bio}>Soy un desarrollador de software apasionado y estoy aprendiendo React y Next.js.</p>
+      <h1 className={styles.sobremi}>About Me</h1>
+      <p className={styles.bio}>Test</p>
     </div>
   );
 };
