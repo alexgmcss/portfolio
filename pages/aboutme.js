@@ -8,7 +8,7 @@ const AboutMe = () => {
   <span></span>
   <span></span>
   <span></span>
-  <span></span> ← Back Home
+  <span></span> Back Home
 </button>
       <h1 className={styles.sobremi}>About Me</h1>
       <p className={styles.bio}>Test</p>
