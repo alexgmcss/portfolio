@@ -107,6 +107,20 @@
     transition-delay: none;
    }
 
-.bio {
+   .bio {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
     text-align: center;
-}
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+  }
+
+  .gradient {
+    margin-left: 10px;
+    background: linear-gradient(to right, #57026d, #aa00d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+  }
