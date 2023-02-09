@@ -6,6 +6,7 @@
     text-align: center;
     margin-top: 30px;
     font-size: 50px;
+    user-select: none;
 }
 
 .backhome {
@@ -25,6 +26,7 @@
     border-radius: 20px;
     cursor: pointer;
     font-weight: bold;
+    user-select: none;
    }
    
    .backhome:hover {
@@ -115,6 +117,7 @@
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
+    user-select: none;
   }
 
   .gradient {
@@ -236,4 +239,36 @@
     border-bottom: 10px solid #fff;
     filter: blur(8px);
     transform: rotate(330deg);
+  }  
+
+  .dev {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+    user-select: none;
+    background: linear-gradient(to right, #57026d, #aa00d4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   }
+
+.skills {
+  margin-left: 10px;
+  background: linear-gradient(to right, #ffffff, #8f8f8f);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+}
+
+.skillsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.skillsContainer img {
+  width: 80px;
+  height: 80px;
+  margin: 0 20px;
+}

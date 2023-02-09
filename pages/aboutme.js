@@ -1,5 +1,8 @@
 import React from 'react';
 import styles from '@/styles/aboutme.module.css'
+import reactSvg from '../public/html.svg?include'
+import nodeSvg from '../public/css.svg?include'
+import expressSvg from '../public/js.svg?include'
 
 const AboutMe = () => {
   return (
@@ -50,6 +53,12 @@ I am dedicated to my craft and constantly seeking to improve my skills and knowl
           <span></span>
           <span></span>
         </div>
+      </div>
+      <h1 className={styles.dev}>Dev<span className={styles.skills}>Skills</span></h1>
+      <div className={styles.skillsContainer}>
+        <img src={reactSvg} alt="React logo" />
+        <img src={nodeSvg} alt="Node.js logo" />
+        <img src={expressSvg} alt="Express logo" />
       </div>
     </div>
   );
