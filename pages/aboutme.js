@@ -1,8 +1,9 @@
 import React from 'react';
 import styles from '@/styles/aboutme.module.css'
-import reactSvg from '../public/html.svg?include'
-import nodeSvg from '../public/css.svg?include'
-import expressSvg from '../public/js.svg?include'
+import Html from '../public/html.svg';
+import Css from '../public/css.svg';
+import Js from '../public/js.svg';
+import Reeact from '../public/reeact.svg';
 
 const AboutMe = () => {
   return (
@@ -56,9 +57,10 @@ I am dedicated to my craft and constantly seeking to improve my skills and knowl
       </div>
       <h1 className={styles.dev}>Dev<span className={styles.skills}>Skills</span></h1>
       <div className={styles.skillsContainer}>
-        <img src={reactSvg} alt="React logo" />
-        <img src={nodeSvg} alt="Node.js logo" />
-        <img src={expressSvg} alt="Express logo" />
+        <Html className={styles.svg}  />
+        <Css className={styles.svg} />
+        <Js className={styles.svg} />
+        <Reeact className={styles.svg} />
       </div>
     </div>
   );

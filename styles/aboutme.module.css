@@ -247,14 +247,11 @@
     margin-top: 30px;
     font-size: 50px;
     user-select: none;
-    background: linear-gradient(to right, #57026d, #aa00d4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   }
 
 .skills {
   margin-left: 10px;
-  background: linear-gradient(to right, #ffffff, #8f8f8f);
+  background: linear-gradient(to right, #57026d, #aa00d4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -265,10 +262,11 @@
   justify-content: center;
   align-items: center;
   margin-top: 40px;
+  margin-left: 40px;
 }
 
-.skillsContainer img {
-  width: 80px;
-  height: 80px;
-  margin: 0 20px;
+.svg {
+  width: 70px;
+  height: 70px;
+  margin-right: 50px;
 }
