@@ -25,9 +25,6 @@ const AboutMe = () => {
 
 I am dedicated to my craft and constantly seeking to improve my skills and knowledge. With my passion for coding and my experience, I believe that I would be a great asset to any team.</p>
     </div>
-      <div>
-        
-      </div>
       <h1 className={styles.dev}>Dev<span className={styles.skills}>Skills</span></h1>
       <div className={styles.skillsContainer}>
         <Html className={styles.svg}  />
@@ -46,6 +43,43 @@ I am dedicated to my craft and constantly seeking to improve my skills and knowl
       <div className={styles.skillsContainer}>
         <Vscode className={styles.svg}  />
       </div>
+      <div className={styles.bubblecontainer}>
+      <div className={styles.bubble}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div className={styles.bubble}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div className={styles.bubble}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div className={styles.bubble}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div className={styles.bubble}>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
     </div>
   );
 };
