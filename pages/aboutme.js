@@ -8,7 +8,7 @@ import Photoshop from '../public/photoshop.svg';
 import Illustrator from '../public/illustrator.svg';
 import Premiere from '../public/premiere.svg';
 import Af from '../public/af.svg';
-import Vscode from '../public/Vscode.svg';
+import Vscode from '../public/vscode.svg';
 
 const AboutMe = () => {
   return (
