@@ -261,7 +261,7 @@
 
 .skills {
   margin-left: 10px;
-  background: linear-gradient(to right, #a36405, #ff9900);
+  background: linear-gradient(to right, #ffd000, #b69502);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -284,7 +284,7 @@
 
 .tools {
   margin-left: 10px;
-  background: linear-gradient(to right, #013170, #005cd4);
+  background: linear-gradient(to right, #b6d6ff, #005cd4);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
@@ -296,7 +296,7 @@
 
 .design {
   margin-left: 10px;
-  background: linear-gradient(to right, #702310, #d42a00);
+  background: linear-gradient(to right, #e703c9, #990b86);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
