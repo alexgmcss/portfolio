@@ -9,6 +9,8 @@ import Illustrator from '../public/illustrator.svg';
 import Premiere from '../public/premiere.svg';
 import Af from '../public/af.svg';
 import Vscode from '../public/vscode.svg';
+import Github from '../public/github.svg';
+import Twitter from '../public/twitter.svg';
 
 const AboutMe = () => {
   return (
@@ -34,15 +36,16 @@ I am dedicated to my craft and constantly seeking to improve my skills and knowl
       </div>
       <h1 className={styles.dev}>Graphic<span className={styles.design}>Design</span></h1>
       <div className={styles.skillsContainer}>
-        <Photoshop className={styles.svg}  />
-        <Illustrator className={styles.svg} />
-        <Premiere className={styles.svg} />
-        <Af className={styles.svg} />
+        <Photoshop className={styles.svg2}  />
+        <Illustrator className={styles.svg2} />
+        <Premiere className={styles.svg2} />
+        <Af className={styles.svg2} />
       </div>
       <h1 className={styles.dev}><span className={styles.tools}>Tools</span></h1>
       <div className={styles.skillsContainer}>
-        <Vscode className={styles.svg}  />
+        <Vscode className={styles.svg2}  />
       </div>
+
       <div className={styles.bubblecontainer}>
       <div className={styles.bubble}>
         <span></span>

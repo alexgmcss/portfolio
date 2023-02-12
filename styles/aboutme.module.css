@@ -271,7 +271,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-left: 40px;
   margin-bottom: 80px;
 }
@@ -279,6 +279,12 @@
 .svg {
   width: 70px;
   height: 70px;
+  margin-right: 50px;
+}
+
+.svg2 {
+  width: 65px;
+  height: 65px;
   margin-right: 50px;
 }
 
@@ -301,3 +307,4 @@
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
+
