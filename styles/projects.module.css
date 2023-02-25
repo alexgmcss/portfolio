@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.project {
+    font-family: 'Poppins', sans-serif;
+    font-size: 80px;
+    margin-top: 80px;
+    text-align: center;
+    background: linear-gradient(to top right, #d7f721, #7b8f0a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    user-select: none;
+}
+
+.table {
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+.td {
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid rgb(66, 66, 66);
+}
