@@ -11,6 +11,7 @@ import Af from '../public/af.svg';
 import Vscode from '../public/vscode.svg';
 import Link from 'next/link';
 import Head from 'next/head'
+import Next from '../public/nextjs.svg';
 
 const AboutMe = () => {
   return (
@@ -20,14 +21,16 @@ const AboutMe = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <div>
-        <Link href="pages/index.js">
-          <button className={styles.backhome}>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span> Back Home
-          </button>
-        </Link>
+        <div className={styles.container}>
+          <Link href="/">
+            <button className={styles.backhome}>
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span> Back Home
+            </button>
+          </Link>
+        </div>
       <div className={styles.aboutmecontainer}>
         <h1 className={styles.sobremi}>About<span className={styles.gradient}>Me</span></h1>
         <p className={styles.bio}>Hi, Im Alex! Im a Junior Software Developer with a passion for creating innovative solutions to complex problems. Currently, I spend most of my time working on my personal projects, but Im actively seeking employment opportunities in software development.
@@ -39,6 +42,7 @@ const AboutMe = () => {
           <Html className={styles.svg}  />
           <Css className={styles.svg} />
           <Js className={styles.svg} />
+          <Next className={styles.svg} />
           <Reeact className={styles.svg} />
         </div>
         <h1 className={styles.dev}>Graphic<span className={styles.design}>Design</span></h1>
