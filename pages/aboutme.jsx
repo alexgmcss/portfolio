@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from '@/styles/aboutme.module.css'
+import loaderStyles from '@/styles/loader.module.css'
 import Html from '../public/html.svg';
 import Css from '../public/css.svg';
 import Js from '../public/js.svg';
-import Reeact from '../public/reeact.svg';
+import Icon from '../public/reeact.svg';
 import Photoshop from '../public/photoshop.svg';
 import Illustrator from '../public/illustrator.svg';
 import Premiere from '../public/premiere.svg';
@@ -12,8 +13,20 @@ import Vscode from '../public/vscode.svg';
 import Link from 'next/link';
 import Head from 'next/head'
 import Next from '../public/nextjs.svg';
+import LoadingScreen from './LoadingScreen';
 
 const AboutMe = () => {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 3000);
+    return () => clearTimeout(timer);
+  }, []);
+  
+  if (loading) {
+    return <LoadingScreen />;
+  }
+
   return (
     <>
     <Head>
@@ -43,7 +56,7 @@ const AboutMe = () => {
           <Css className={styles.svg} />
           <Js className={styles.svg} />
           <Next className={styles.svg} />
-          <Reeact className={styles.svg} />
+          <Icon className={styles.svg} />
         </div>
         <h1 className={styles.dev}>Graphic<span className={styles.design}>Design</span></h1>
         <div className={styles.skillsContainer}>
