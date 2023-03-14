@@ -67,19 +67,17 @@ export default function Home() {
             </p>
           </a>
 
-          <a
-            href="./projects"
-            className={styles.card}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <h2 className={inter.className}>
-              Social networks <span>-&gt;</span>
-            </h2>
-            <p className={inter.className}>
-              All my social networks
-            </p>
-          </a>
+          <Link href="/projects">
+  <a className={styles.card}>
+    <h2 className={inter.className}>
+      Projects <span>-&gt;</span>
+    </h2>
+    <p className={inter.className}>
+      All my programming projects!
+    </p>
+  </a>
+</Link>
+
         </div>
       </main>
     </>
