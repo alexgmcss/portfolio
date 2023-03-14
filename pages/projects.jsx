@@ -21,11 +21,6 @@ function Projects() {
       <Head>
         <title>Projects</title>
       </Head>
-      <div>
-          <h1 className={styles.project}>
-            Projects
-          </h1>
-      </div>
     </>
   );
 }
