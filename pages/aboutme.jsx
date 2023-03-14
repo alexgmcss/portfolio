@@ -19,7 +19,7 @@ const AboutMe = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 3000);
+    const timer = setTimeout(() => setLoading(false), 1000);
     return () => clearTimeout(timer);
   }, []);
   
@@ -40,7 +40,7 @@ const AboutMe = () => {
               <span></span>
               <span></span>
               <span></span>
-              <span></span> Back Home
+              <span></span>  Back Home
             </button>
           </Link>
         </div>

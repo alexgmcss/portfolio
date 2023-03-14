@@ -322,3 +322,7 @@
   color: #303030;
   height: 65px;
 }
+
+.aboutme-wrapper {
+  position: relative;
+}
